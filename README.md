@@ -1,8 +1,8 @@
 # Projeto Estacionamento
 
-### Promovido pela Digital Innovation One - DIO
+## Promovido pela Digital Innovation One - DIO
 
-#### Sobre o Projeto
+### Sobre o Projeto
 
 ##### O projeto Estacionamento foi criado pela DIO para o treinamento do Typescript.
 
@@ -12,21 +12,21 @@
 
 ##### O objetivo desse sitema é cadastrar os dados necessários para compor o Estacionamento, sendo salvo no Local Storage do navegador e sendo listado na tela. Caso o usuário finalize sua permanência no estacionamento é só removê-lo do cadastro clicando no botão remover.
 
-#### Layout do Projeto
+### Layout do Projeto
 <img src="./estacionamento.png" alt="Projeto Estacionamento" width="100%" />
 
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 * HTML5
 * CSS3
 * Javascript
 * Typescript
 
-#### Organização dos Arquivos
+### Organização dos Arquivos
 
 ##### A organização foi feita por pastas e arquivos necessários facilitando a manutenção.
 
-#### Autor
+### Autor
 
 ##### Katarine Bezerra de Albuquerque
 
