@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Estacionamento</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='src/css/style.css'>
+
+<body>
+    <div id="conteudo">        
+        <h1>Sistema de Estacionamento</h1>
+        <h2>Estacione o seu Veículo</h2>
+        <section class="formulario">
+            <input id="usuario" type="text" placeholder="Nome" autocomplete="off"/>
+            <input id="cpf" type="number" placeholder="CPF" autocomplete="off"/>
+            <input id="nome" type="text" placeholder="Nome do carro" autocomplete="off" />
+            <input id="placa" type="text" placeholder="Placa do carro" autocomplete="off" />
+            <select id="vaga">
+                <option value="001">001 - Dia</option>
+                <option value="002">002 - Semana</option>
+                <option value="003">003 - Mês</option>
+            </select>
+        </section>
+        <section class="formulario">
+            <button id="cadastrar">Cadastrar</button>
+        </section>
+        <section id="titulo-listagem">
+            <img src="./src/imgs/carro.png" alt="Imagem Carro"/>
+            <h2>Veículos na Garagem</h2>
+        </section>
+        <div id="conteudo-da-listagem">
+            <section id="listagem">
+                <table id="tabela">
+                    <thead id="titulo">
+                        <th class="titulos nome">Nome</th>
+                        <th class="titulos">CPF</th>
+                        <th class="titulos">Carro</th>
+                        <th class="titulos">Placa</th>
+                        <th class="titulos">Entrada</th>
+                        <th class="titulos">Vaga</th>
+                        <th class="titulos">Ações</th>
+                    </thead>
+                    <tbody id="garagem">
+                        <!-- Aqui ficará a lista de dados salvos -->
+                    </tbody>
+                </table>
+            </section>
+        </div>        
+        <footer>
+            <p>Sistema @2022 - Estacionamento</p>
+        </footer>
+    </div>
+    <!---Javascript-->
+    <script src='./src/scripts/index.js'></script>
+    </head>
+</body>
+
+</html>
